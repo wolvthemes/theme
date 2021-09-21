@@ -126,28 +126,16 @@
 @media screen and (max-width:480px){
 .lPage ul.lf li{width:calc(100% - 20px)}
 }
-/* Dark mode */
-.darkMode .headerSearch input[type=text]::placeholder, .darkMode .widget input[type=text]::placeholder, .darkMode .widget input[type=email]::placeholder{color:rgba(255,255,255,.25)}
-.darkMode .widget input[type=text], .darkMode .widget input[type=email], .darkMode .widget textarea, .darkMode .FollowByEmail input[type=email]{background-color:var(--dark-bg-alt);}
-.darkMode, .darkMode .Blog .commentFixed, .darkMode .Blog .commentContent i[rel="image"]:before{background-color:var(--dark-bg);color:var(--dark-text)}
-.darkMode header, .darkMode .headerSearch input[type=text], .darkMode .shareIcon > *{background-color:var(--dark-bg-alt);color:var(--dark-text)}
-.darkMode header svg{fill:var(--dark-text)} .darkMode header svg.line, header svg .line, .darkMode svg.line, .darkMode svg .line{fill:none;stroke:var(--dark-text)}
-.darkMode h1, .darkMode h2, .darkMode h3, .darkMode h4, .darkMode h5, .darkMode h6, .darkMode .blogTopic ul, .darkMode .postAuthors .authorName, .darkMode .relatedPosts .itemTitle, .darkMode .Blog .tocInner .tocTitle, .darkMode .Blog .spoilerTitle, .darkMode .accordion .accorTitle, .darkMode .Label .widget-content{color:var(--dark-text)}
-.darkMode .Blog .postTimestamp, .darkMode .PopularPosts .itemTimestamp, .darkMode .Blog .postReadtime, .darkMode .FeaturedPost .itemTimestamp, .darkMode .blogTopic li li, .darkMode .PopularPosts .itemContent:before, .darkMode .postAuthors .authorName:before, .darkMode .button.outline, .darkMode .Blog .commentSort, .darkMode .Blog .commentHeader .datetime, .darkMode .Blog .commentHeader .datetime:before, .darkMode .Blog .commentReply a, .darkMode .Blog .commentActions a, .darkMode .Blog .threadToggle, .darkMode .Blog .postLabel, .darkMode .Blog blockquote, .darkMode .Blog blockquote.style-1:before, .darkMode .Blog .commentContent i[rel="quote"], .darkMode .Blog .separate, .darkMode .Blog .tocInner .tocTitle:after, .darkMode .Blog .tocInner .tocContent, .darkMode .Label .labelCount, .darkMode .Label .labelShow label:after{color:var(--dark-text-alt)}
-.darkMode .accordion .accorIcon:before, .darkMode .accordion .accorIcon:after{background-color:var(--dark-text)}
-.darkMode .FeaturedPost .itemMore svg, .darkMode .Blog .postMore svg{stroke:var(--icon-link-color)}
-.darkMode .Blog .tabsHead > *:after{background-color:var(--dark-bg)}
-.darkMode footer{background-color:var(--dark-bg-sec);color:var(--dark-text)}
-.darkMode footer .toTop svg, .darkMode footer .LinkList a svg.line, .darkMode .Label li > * svg.line{fill:none;stroke:var(--dark-text-alt)}
-.darkMode header.show{border-color:transparent}
-.darkMode .headerSearch input[type=text], .darkMode.onPost .blogArticle .blogTopic, .darkMode.onPost .Blog .postHeader, .darkMode .blogTopic li.break:after, .darkMode footer .toTop, .darkMode .postAuthors, .darkMode .Blog .commentsTitle, .darkMode .Blog blockquote, .darkMode .Blog .commentContent i[rel="quote"], .darkMode .Blog table th, .darkMode .Blog table td, .darkMode .Blog .tocInner, .darkMode .Blog .spoiler, .darkMode .accordion li, .darkMode .Blog .postRelated, .darkMode .Blog .tabsHead, .darkMode .Blog .tabsHead > *{border-color:rgba(255,255,255,.1)}
-.darkMode.onIndex .blogArticle .blogContent:before, .darkMode .Blog code, .darkMode .Blog .commentContent i[rel="pre"]{background-color:rgba(0,0,0,.09)}
-.darkMode .Blog code, .darkMode .Blog .commentContent i[rel="pre"]{color:var(--dark-text-alt)}
-.darkMode .Blog .postThumbnail a, .darkMode .FeaturedPost .itemThumbnail a, .darkMode .PopularPosts .itemThumbnail a, .darkMode .productItem .productImg a{background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 50 50'><path d='M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z' fill='rgba(255,255,255,.2)'><animateTransform attributeType='xml' attributeName='transform' type='rotate' from='0 25 25' to='360 25 25' dur='0.6s' repeatCount='indefinite'/></path></svg>") center / 26px no-repeat}
-@media screen and (max-width: 896px){.darkMode .headerNav #header-nav, .darkMode .blogArticle .blogTopic #nav-widget{background-color:var(--dark-bg-sec)}
-}
-@media screen and (max-width: 480px){.darkMode .FeaturedPost .itemContent{border-color:rgba(255,255,255,.1)}
-}
+/* Landing Page(Dark Mode) */
+.drkM .lPage li a{color:inherit}
+.drkM .lPage li svg{fill:var(--darkL)}
+.drkM .lPage li svg.line, .drkM .pgMo svg.line{fill:none;stroke:var(--darkL)}
+.drkM .lPage ul.mf svg{fill:var(--darkTalt)}
+.drkM .lPage ul.mf svg.line{fill:none;stroke:var(--darkTalt)}
+.drkM .pG-01 .pgCont, .drkM .pG-03 .pgCont, .drkM .pG-05 .pgCont, .drkM .pG-07 .pgCont{background:inherit}
+.drkM .pG-02 .pgCont, .drkM .pG-04 .pgCont, .drkM .pG-06 .pgCont, .drkM .pG-09{background:var(--darkBsec)}
+.drkM .pG-07 .pgCont{border-color:rgba(255,255,255,.1)}
+.drkM .pyM{background:var(--darkBsec);box-shadow:0 10px 40px rgba(0,0,0,.2)} .drkM .pyP{color:var(--darkL)} .drkM .pyM.disc::before{background:var(--darkL)}
 
 .Blog .post {  -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -ms-user-select:none; -moz-user-select:none; }
 .Blog .post blockquote,.post pre,.post code,h1 ,.note { -webkit-touch-callout:text; -webkit-user-select:text; -khtml-user-select:text; -ms-user-select:text; -moz-user-select:text; }
