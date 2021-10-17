@@ -1,4 +1,4 @@
-.tabs ul,.ui ul{list-style-type:none}
+.tabs ul,.ui ul{list-style:none}
 .tabs ul li{box-sizing:border-box}
 .owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent}
 .m-sub,.octf-btn-no-icon i,.owl-carousel,.owl-carousel .owl-refresh .owl-item,.static_page .sidebar-wrapper,.tabs .content section,.tabs .slider,.tabs input[name=tab-control],.tabs ul li label br,.tabs ul li label span,.top-bar-nav .widget>.widget-title,.top-bar-social .widget>.widget-title,.btn-mobile{display:none}
